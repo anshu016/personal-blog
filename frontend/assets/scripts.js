@@ -8,7 +8,7 @@ window.onload = function() {
                 const postCard = document.createElement('div');
                 postCard.classList.add('post-card');
                 postCard.innerHTML = `
-                    <img src="https://via.placeholder.com/400x200" alt="${post.title}">
+                    <img src="${post.image || 'https://via.placeholder.com/400x200'}" alt="${post.title}">
                     <h2>${post.title}</h2>
                     <p>${post.content.substring(0, 100)}...</p>
                     <a class="view-more" href="post.html?id=${post.id}">Read More</a>
