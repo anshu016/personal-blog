@@ -21,10 +21,15 @@
 
     <!-- Post Content -->
     <section class="post-content">
-        <h1>Post Title</h1>
-        <p class="timestamp">Posted on: 2024-12-02</p>
-        <p class="category">Category: General</p>
-        <p class="post-body">This is the full content of the post...</p>
+        <div class="post-header">
+            <h1>Post Title</h1>
+            <p class="timestamp">Posted on: <span id="post-date">2024-12-02</span></p>
+            <p class="category">Category: <span id="category">General</span></p>
+        </div>
+        
+        <div class="post-body">
+            <p>This is the full content of the post...</p>
+        </div>
 
         <div class="post-actions">
             <button id="like-button">Like <span id="like-count">0</span></button>
