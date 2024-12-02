@@ -62,15 +62,4 @@ personal-blog/
 ## Contributing
 Feel free to fork this repository, submit pull requests, or create issues to suggest improvements.
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
 
-### What to do next:
-
-1. **Copy** the entire block of code above.
-2. **Open** the `README.md` file in your project directory.
-3. **Paste** the content into the file, replacing any old content if necessary.
-4. **Save** the file.
-
-This should be all you need for your **GitHub** repository. Let me know if you need more assistance!
